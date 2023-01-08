@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container{
+    display:table;
+    width:90%;
+    border-collapse: collapse;
+    padding-top:4px;
+    margin-top:5px;
+    }
+ .heading{
+     font-weight: bold;
+     display:table-row;
+     background-color:#2E5FFF;
+     text-align: center;
+     line-height: 30px;
+     font-size: 20px;
+     font-family:georgia;
+     color:#fff;
+     
+ }
+ .table-row{  
+     display:table-row;
+     text-align: center;
+	 padding: 10px;
+	 height: 30px;	 
+ }
+ .col{ 
+	display:table-cell;
+ 	border: 1px solid #2E5FFF;
+ }
+
+@media only screen and (min-width:150px) and (max-width:600px)
+{
+ .heading{
+     font-weight: bold;
+     display:table-row;
+     background-color:#2E5FFF;
+     text-align: center;
+     line-height: 30px;
+     font-size: 20px;
+     font-family:georgia;
+     color:#fff;
+}
